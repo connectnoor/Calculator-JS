@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" readonly id="display">
+        <div class="buttons">
+            <Button class="bgRed" onclick="appendChar('+')" >+</Button>
+            <Button onclick="appendChar('7')" >7</Button>
+            <Button onclick="appendChar('8')" >8</Button>
+            <Button onclick="appendChar('9')" >9</Button>
+            <Button class="bgRed" onclick="appendChar('-')" >-</Button>
+            <Button onclick="appendChar('4')" >4</Button>
+            <Button onclick="appendChar('5')" >5</Button>
+            <Button onclick="appendChar('6')" >6</Button>
+            <Button class="bgRed" onclick="appendChar('*')" >*</Button>
+            <Button onclick="appendChar('1')" >1</Button>
+            <Button onclick="appendChar('2')" >2</Button>
+            <Button onclick="appendChar('3')" >3</Button>
+            <Button class="bgRed" onclick="appendChar('/')" >/</Button>
+            <Button onclick="appendChar('0')" >0</Button>
+            <Button onclick="clearInput()" >C</Button>
+            <Button onclick="calculate()" >=</Button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
