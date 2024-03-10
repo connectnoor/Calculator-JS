@@ -12,7 +12,9 @@ body{
     padding: 0px 10px;
 }
 #calculator{
+
    width: 400px;
+   max-width: 90%;
    display: flex;
    flex-direction: column;
    /* border: 2px solid red; */
@@ -31,13 +33,14 @@ body{
    border: none;
 }
 button{
-    width: 80px;
-    height: 80px;
+    width: 19%;
+    /* height: 10%; */
     border-radius: 50%;
     border: none;
     background-color: rgba(55, 52, 52, 0.556);
     font-size: 3rem;
     color: white;
+    padding: 5px 5px;
 }
 button:hover{
     background-color: rgba(42, 42, 42, 0.556);
